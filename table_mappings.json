@@ -1,0 +1,19 @@
+{
+  "tableMappings": {
+    "database1.users": {
+      "database2TableName": "user_profiles",
+      "fieldMappings": {
+        "id": "user_id",
+        "username": "user_name",
+        "email": "email_address"
+      }
+    },
+    "database1.orders": {
+      "database2TableName": "order_details",
+      "fieldMappings": {
+        "orderId": "order_id",
+        "productId": "product_ref_id",
+        "quantity": "quantity_ordered"}
+    }
+  }
+}
